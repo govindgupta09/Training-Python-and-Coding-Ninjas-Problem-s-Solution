@@ -249,7 +249,3 @@ print(5%2)     # remainder after division.
 x=y=z=1        # x=1,y=1,z=1 in this line.
 print("sum of x,y and z is:" + str(x+y+z))
 
-
-
-
-
