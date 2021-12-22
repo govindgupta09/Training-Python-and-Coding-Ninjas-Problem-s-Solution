@@ -1,0 +1,46 @@
+# Learn basics of Python.
+
+my_dict = {'key1':'GOVIND','key2':'Gupta'}
+print(my_dict.keys())
+print(my_dict.items())
+print(my_dict.values())
+
+print('\n')
+
+
+d= {}
+d['animal'] = 'Dog'
+d['answer'] = '42'
+print(d)
+
+print('\n')
+
+
+#dictionary nested inside a dictionary
+d = {'key' :{'nestkey':{'Nestedkey':'value'}}}
+print('key',['nestkey'])
+d = {'key1': '1','key2': '2','key3':'3'}
+print(d.keys())
+
+
+print('\n')
+
+#create touple
+t = (1,2,3,4,5,6)
+print('length is :',len(t))
+
+print('\n')
+
+# can also mix object types..
+t = ('one',2)
+print(t)
+
+# slicing print using index number..
+print(t[0])
+print(t[-1])
+
+print('\n')
+
+# Use index to enter a value and return the index
+print(t.index('one'))
+
