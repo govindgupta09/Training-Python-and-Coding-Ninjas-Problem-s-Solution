@@ -1,0 +1,25 @@
+'''
+    1
+   212
+  32123
+ 4321234
+543212345
+'''
+
+n=int(input())
+i=1
+while(i<=n):
+    spaces=1
+    while(spaces<=n-i):
+        print(" ",end="")
+        spaces+=1
+    inc=1
+    while(inc<=i):
+        print(i-inc+1,end="")
+        inc+=1
+    dec=i-1
+    while(dec>=1):
+        print(i-dec+1,end="")
+        dec-=1
+    print()
+    i+=1
