@@ -1,0 +1,15 @@
+#  Fahrenheit to Celsius Function
+
+def printTable(start,end,step):
+    while start<=end:
+        F = int((start-32)*(5/9))
+        print("{}	{}".format(start,F))
+        start=start+step
+    
+    pass 
+
+	   
+s = int(input())
+e = int(input())
+step = int(input())
+printTable(s,e,step)
