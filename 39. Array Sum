@@ -1,0 +1,13 @@
+#  Array Sum
+
+
+# number of elements
+n = int(input())
+
+# Below line read inputs from user using map() function
+a = list(map(int,input().strip().split()))[:n]
+sum=0
+for ele in a:
+    sum+=ele
+
+print(sum)
