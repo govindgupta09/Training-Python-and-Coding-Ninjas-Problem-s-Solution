@@ -1,0 +1,24 @@
+#  Fibonacci Member
+
+
+def checkMember(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        c,a,b=0,1,1
+        while c<n:
+            c=a+b
+            b=a
+            a=c
+        if c==n:
+            return 1 
+        else:
+            return 0
+#Implement Your Code Here
+    pass
+
+n=int(input())
+if(checkMember(n)):
+    print("true")
+else:
+    print("false")
